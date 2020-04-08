@@ -6,11 +6,39 @@ body {
     margin: 0px;
 }
 
+main {
+    margin: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
 .m{
    width: 100%;
 }
 
-.home {
-    width: 20px;
-    height:10px;
+#monkey{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 20px;
+}
+
+#george {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+#caption{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
 }
