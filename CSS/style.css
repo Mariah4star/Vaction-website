@@ -93,3 +93,10 @@ p {
 ul {
     list-style: none;
 }
+/*footer*/
+footer {
+    border-width: medium;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
