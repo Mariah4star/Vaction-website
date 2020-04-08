@@ -6,6 +6,11 @@ body {
     margin: 0px;
 }
 
-img{
+.m{
    width: 100%;
+}
+
+.home {
+    width: 20px;
+    height:10px;
 }
