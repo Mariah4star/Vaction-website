@@ -103,16 +103,20 @@ ul {
 
 #projectgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 4rem;
     max-width: 1280px;
     margin: 15px;
-    margin-right: 45px;
+    margin-right: 50px;
 }
 
 #tile {
-    padding: 15px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 
 #figure{
     background-color: rgba(252, 251, 182, 0.26);
