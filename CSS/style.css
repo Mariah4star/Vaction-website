@@ -33,7 +33,7 @@ body {
  /*:active*/
 .active a.current{
     color: black;
-    background-color:  rgba(211, 211, 211, 0.925));
+    background-color:  rgba(211, 211, 211, 0.925);
  }
  
 nav:active{
