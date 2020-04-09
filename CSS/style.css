@@ -93,6 +93,58 @@ p {
 ul {
     list-style: none;
 }
+
+li {
+    padding: 10px;
+}
+
+.wrapper{
+    width: auto;
+    max-width: 100000000px;
+    min-width: 300px;
+  }
+
+
+#projectgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 4rem;
+    max-width: 1280px;
+    margin: 15px;
+    margin-right: 50px;
+}
+
+#tile {
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#figure{
+    background-color: rgba(252, 251, 182, 0.26);
+    border-style: ridge;
+    border-color: rgba(128, 128, 128, 0.192);
+    width: 200px;
+    height: 275px;
+}
+
+#caption{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+border-width: medium;
+text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+}
 /*footer*/
 footer {
     border-width: medium;
