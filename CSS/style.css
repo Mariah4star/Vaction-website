@@ -107,7 +107,7 @@ li {
 
 #projectgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, .5fr));
     grid-gap: 4rem;
     max-width: 1280px;
     margin: 15px;
@@ -126,7 +126,7 @@ li {
     background-color: rgba(252, 251, 182, 0.26);
     border-style: ridge;
     border-color: rgba(128, 128, 128, 0.192);
-    width: 200px;
+    width: 225px;
     height: 275px;
 }
 
