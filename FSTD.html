@@ -24,93 +24,98 @@
 
     <img class="m" id="m" src="Images/other/vincent-romain-yCF6v9WVFcU-unsplash.jpg">
 
-   <main>
-    <div class = "wrapper" id = "wrapper">
-        <h2> Pick your plan</h2>
-        <form action="thanks.html" method="post" enctype="multipart/form-data" name="attend" class="IHATETHIS">
-            <fieldset>
-                <legend> Personal Info </legend>
-                <div id = "spaceing">
-                <label>
-                    <span>*Name:</span>
-                    <input name="name" type="text" placeholder="full name" required class="userinfo">
-                </label>
-            </div>
+    <main>
+        <div class="wrapper" id="wrapper">
+            <h2> Pick your plan</h2>
+            <form action="thanks.html" method="post" enctype="multipart/form-data" name="attend" class="IHATETHIS">
+                <fieldset>
+                    <legend> Personal Info </legend>
+                    <div id="spaceing">
+                        <label>
+                            <span>*Name:</span>
+                            <input name="name" type="text" placeholder="full name" required class="userinfo">
+                        </label>
+                    </div>
 
-            <div id = "spaceing">
-                <label>
-                    <span>*Email:</span>
-                    <input name="email" type="email" placeholder="Your email" required class="userinfo">
-                </label>
-            </div>
+                    <div id="spaceing">
+                        <label>
+                            <span>*Email:</span>
+                            <input name="email" type="email" placeholder="Your email" required class="userinfo">
+                        </label>
+                    </div>
 
-            <div id = "spaceing">
-                <label for="phone">Enter your phone number
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </label>
-            </div>
+                    <div id="spaceing">
+                        <label for="phone">Enter your phone number
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </label>
+                    </div>
 
-        <div id = "spaceing">
-                <h2>Which Package do you want</h2>
-                <label for="si/no">Are you Bored inside?</label>
-                <select id="si/no">
-                    <option value="Yes">Yes</option>
-                    <option value="no">No</option>
-                </select>
-            </div>
+                    <div id="spaceing">
+                        <h2>Which Package do you want</h2>
+                        <label for="si/no">Are you Bored inside?</label>
+                        <select id="si/no">
+                            <option value="Yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
 
-            <div id = "spaceing">
-                <label for="si/no">Which package do you want</label>
-                <select id="si/no">
-                    <option value="no">Package 1</option>
-                    <option value="no">Package 2</option>
-                    <option value="no">Package 3</option>
-                    <option value="no">None</option>
-                </select>
-            </div>
+                    <div id="spaceing">
+                        <label for="si/no">Which package do you want</label>
+                        <select id="si/no">
+                            <option value="no">Package 1</option>
+                            <option value="no">Package 2</option>
+                            <option value="no">Package 3</option>
+                            <option value="no">None</option>
+                        </select>
+                    </div>
 
-            <div id = "spaceing">
-                <label for="si/no">How are you doing mentally?</label>
-                <select id="si/no">
-                    <option value="no">Good</option>
-                    <option value="no">Ok</option>
-                    <option value="no">Bad</option>
-                    <option value="no">What are you talking about</option>
-                </select>
-            </div>
-            
-            <div id = "spaceing">
-                <label>
-                    <span>*Why you want one of our Package's:</span>
-                    <input name="why" type="text" placeholder="because...." required class="userinfo">
-                </label>
-            </div>
+                    <div id="spaceing">
+                        <label for="si/no">How are you doing mentally?</label>
+                        <select id="si/no">
+                            <option value="no">Good</option>
+                            <option value="no">Ok</option>
+                            <option value="no">Bad</option>
+                            <option value="no">What are you talking about</option>
+                        </select>
+                    </div>
 
-            <div id = "spaceing">
-                <label for="r1">
-                    <h2>Check all that apply</h2>
+                    <div id="spaceing">
+                        <label>
+                            <span>*Why you want one of our Package's:</span>
+                            <input name="why" type="text" placeholder="because...." required class="userinfo">
+                        </label>
+                    </div>
+
+                    <div id="spaceing">
+                        <label for="r1">
+                            <h2>Check all that apply</h2>
+
+                            <input type="checkbox" id="r1" name="r1" value="want">
+                            I am bored inside
+                        </label>
+                        <label for="r2">
+                            <input type="checkbox" id="r2" name="r2" value="allergies">
+                            I have children at home</label>
+                        <label for="r3">
+                            <input type="checkbox" id="r3" name="r3" value="FOOD">
+                            I am home alone</label>
+                    </div>
                     
-                    <input type="checkbox" id="r1" name="r1" value="want">
-                    I am bored inside
-                </label>
-                <label for="r2">
-                    <input type="checkbox" id="r2" name="r2" value="allergies">
-                    I have children at home</label>
-                <label for="r3">
-                    <input type="checkbox" id="r3" name="r3" value="FOOD">
-                    I am home alone</label>
-                </div>
+                    <div id="spaceing">
+                        <h2>Any other comments</h2>
+                        <textarea name="comment" id="comment">Enter text here...</textarea>
+                    </div>
 
-                <div class="button" id="button">
-                    <a href="thanks.html"><button type="button">Submit</button></a>
-                </div>
-                
-            </fieldset>
-        </form>
+                    <div class="button" id="button">
+                        <a href="thanks.html"><button type="button">Submit</button></a>
+                    </div>
+
+                </fieldset>
+            </form>
         </div>
-   </main>
-    </body>
-   
+    </main>
+</body>
+
 <!--Footer-->
 <footer>
     <h5> ©2020 ∙ Built by Mariah for DGM 2120</h5>
