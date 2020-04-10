@@ -127,11 +127,49 @@ li {
     border-style: ridge;
     border-color: rgba(128, 128, 128, 0.192);
     width: 225px;
-    height: 275px;
+    height: 300px;
+}
+
+#package {
+    display: flex;
+    justify-content: center;
+}
+#figure2{
+    background-color: rgba(252, 251, 182, 0.26);
+    border-style: ridge;
+    border-color: rgba(128, 128, 128, 0.192);
+    width: 225px;
+    height: 750px;
+}
+h4, h5 {
+    justify-content: center;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 30px;
 }
 
 #caption{
     display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+#caption2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#caption3{
     justify-content: center;
     padding-bottom: 10px;
     font-size: 12px;
