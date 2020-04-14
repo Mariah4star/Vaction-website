@@ -290,6 +290,10 @@ padding-top: 10px;
         justify-content: center;
         padding-left: 25%;
     }
+    figcaption{
+        padding-left: 5%;
+        margin: 20px;
+    }
 }
 
 
@@ -363,8 +367,8 @@ padding-top: 10px;
     }
 
     .home {
-        width: 330px;
-        height: 230px;
+        width: 230px;
+        height: 130px;
     }
 
 }
