@@ -162,6 +162,10 @@ button{
     height: 30px;
 }
 
+iframe {
+    width: 30%;
+}
+
 #caption{
     display: flex;
     justify-content: center;
