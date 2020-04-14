@@ -50,22 +50,24 @@
                         </label>
                     </div>
 
+                    <h2>Which Package do you want</h2>
+
                     <div id="spaceing">
-                        <h2>Which Package do you want</h2>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Package 1</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Package 2</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Package 3</label>
+                    </div>
+
+
+                    <div id="spaceing">
+                        
                         <label for="si/no">Are you Bored inside?</label>
                         <select id="si/no">
                             <option value="Yes">Yes</option>
                             <option value="no">No</option>
-                        </select>
-                    </div>
-
-                    <div id="spaceing">
-                        <label for="si/no">Which package do you want</label>
-                        <select id="si/no">
-                            <option value="no">Package 1</option>
-                            <option value="no">Package 2</option>
-                            <option value="no">Package 3</option>
-                            <option value="no">None</option>
                         </select>
                     </div>
 
@@ -93,14 +95,16 @@
                             <input type="checkbox" id="r1" name="r1" value="want">
                             I am bored inside
                         </label>
+
                         <label for="r2">
                             <input type="checkbox" id="r2" name="r2" value="allergies">
                             I have children at home</label>
+                            
                         <label for="r3">
                             <input type="checkbox" id="r3" name="r3" value="FOOD">
                             I am home alone</label>
                     </div>
-                    
+
                     <div id="spaceing">
                         <h2>Any other comments</h2>
                         <textarea name="comment" id="comment">Enter text here...</textarea>
