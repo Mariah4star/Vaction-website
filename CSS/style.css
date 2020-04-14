@@ -135,7 +135,7 @@ li {
     border-style: ridge;
     border-color: rgba(128, 128, 128, 0.192);
     width: 225px;
-    height: 300px;
+    height: 350px;
 }
 
 #package {
@@ -198,7 +198,9 @@ form{
     width: 100%;
     height: 50px;
 }
-
+figcaption{
+    margin: 20px;
+}
 #utah {
     display: flex;
     justify-content: center;
@@ -254,8 +256,14 @@ padding-top: 10px;
         .links a:active {
             background-color:  rgba(211, 211, 211, 0.925);
           }
+
         main {
             width: 200px;
+        }
+
+        figure {
+            width: 100%;
+            margin: 10px;
         }
     button{
         border-radius: 25px;
