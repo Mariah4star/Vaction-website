@@ -254,7 +254,9 @@ padding-top: 10px;
         .links a:active {
             background-color:  rgba(211, 211, 211, 0.925);
           }
-        
+        main {
+            width: 200px;
+        }
     button{
         border-radius: 25px;
     }
