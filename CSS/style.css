@@ -300,7 +300,6 @@ padding-top: 10px;
     }
     figcaption{
         padding-left: 5%;
-        margin: 20px;
     }
 }
 
@@ -355,6 +354,7 @@ padding-top: 10px;
         figure {
             width: 100%;
             margin: 10px;
+            height: 80px;
         }
         iframe {
          width: 300px;
