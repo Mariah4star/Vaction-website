@@ -281,20 +281,6 @@ padding-top: 10px;
             margin: 0px;
         }
 
-        #figure2{
-            background-color: rgba(252, 251, 182, 0.26);
-            border-style: ridge;
-            border-color: rgba(128, 128, 128, 0.192);
-            width: 300px;
-            height: 800px;
-        }
-        #utah {
-            display: flex;
-            justify-content: center;
-            padding-left: 5px;
-            width: 400px;
-        }
-
         figure {
             width: 100%;
             margin: 10px;
@@ -312,17 +298,9 @@ padding-top: 10px;
         justify-content: center;
         padding-left: 25%;
     }
-    #george {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding-right: 10px;
-        width: 450px;
-    }
-    
     figcaption{
         padding-left: 5%;
-        margin: 0px;
+        margin: 20px;
     }
 }
 
@@ -364,10 +342,6 @@ padding-top: 10px;
         .links a:hover{
         background-color:  rgba(211, 211, 211, 0.925);
         }
-
-        figcaption{
-            padding-left: 5%;
-        }
         
         .links a:active {
             background-color:  rgba(211, 211, 211, 0.925);
@@ -376,15 +350,6 @@ padding-top: 10px;
         main {
             padding-left: 30px;
             margin: 0px;
-        }
-
-        #figure2{
-            background-color: rgba(252, 251, 182, 0.26);
-            border-style: ridge;
-            border-color: rgba(128, 128, 128, 0.192);
-            width: 500px;
-            height: 800px;
-            margin: 0pc;
         }
 
         figure {
